@@ -22,8 +22,11 @@
                 <!-- Fin du boutton menu gauche flottant et son button -->
             </div>
         </div>
-        <div class="vrai-body">
+        <div class="vrai-body parallax-window w-100" data-parallax="scroll" data-image-src="i_img/inter7.jpg">
             <!-- Code ici -->
+            <div class="card-title text-center text-white">
+                <h1>A PROPOS</h1>
+            </div>
         </div>
     </div>
     <div class="footer">
