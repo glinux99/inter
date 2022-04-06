@@ -4,6 +4,7 @@
 }
 .group-3{
     column-count: 3;
+    column-gap: 0.5px;
 }
 .bgg{
     background-color:rgb(245, 250, 243);
@@ -11,7 +12,13 @@
 .body{
     min-height: 75vh;
 }
-
+.nav-link:hover{
+    color: rgb(0, 255, 21);
+    border-left: 2px solid #0d6efd;
+}
+.bord-top{
+    border-top: 2px solid #0d6efd;
+}
 @media screen and (max-width: 768px){
     .group-3{
         column-count: 1;

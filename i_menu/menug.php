@@ -1,4 +1,4 @@
-<div class="offcanvas offcanvas-start mt-5 bgg" data-bs-scroll="true" tabindex="-1" id="menug" aria-labelledby="menugLabel" style="width: max-content;">
+<div class="offcanvas offcanvas-start mt-5 bg" data-bs-scroll="true" tabindex="-1" id="menug" aria-labelledby="menugLabel" style="width: max-content;">
   <div class="offcanvas-header">
     <h5 class="offcanvas-title" id="menugLabel">Menu</h5>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>

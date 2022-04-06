@@ -1,7 +1,7 @@
-<div>
-<ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start" id="menu">
-        <li class="nav-item text-center">
-            <a href="" class="nav-link">
+<div class="bg">
+<ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start ms-1" id="menu">
+        <li class="nav-item text-center ">
+            <a href="" class="nav-link border-top border-primary">
                 <i class="bi--2xl bi-globe"></i> <span class="ms-0"><?php echo _("Actualite");?></span>
             </a>
         </li>
