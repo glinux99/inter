@@ -24,13 +24,43 @@
         </div>
         <div class="vrai-body parallax-window w-100" data-parallax="scroll" data-image-src="i_img/inter7.jpg">
             <!-- Code ici -->
-            <div class="card-title text-center text-center h1 text-white">
+            <div class="card-title text-center h1 text-white title-pic">
                 <span class="soulign">A PROPOS</span>
             </div>
-            <div class="text-black mx-1">
-                Pour ce qui concernent Interlab, Interlab est une societe mis au point par des informaticiens 
-                pour aider d'aitres utilisateurs sur des problemes a caractere informatique. ce site web a ete mis au
-                point par la premiere graduat des Ingenieurs en Informatique de l'ISTA/GOMA de l'annee 2018-2019:
+            <div class="my-2 position-relative">
+                <!-- <div class="position-absolute bg-white" style="-webkit-clip-path: polygon(72% 74%, 100% 27%, 100% 100%, 5% 100%);
+                clip-path: polygon(72% 74%, 100% 27%, 100% 100%, 5% 100%);
+                  z-index: 2;
+                  background-color: #226dbc; height: 100%;">
+                </div> -->
+                <div class="position-absolute bg-white" style="z-index: 2;">
+                    <div class="card px-3 my-2" style="text-align: justify;">
+                        <p class="m-0">
+                            Pour ce qui concernent Interlab, Interlab est une societe mis au point par des informaticiens 
+                            pour aider d'autres utilisateurs sur des problemes qui sont informatiques. ce site web a ete mis au
+                            point par la premiere graduat des Ingenieurs en Informatique de l'ISTA/GOMA de l'annee 2018-2019. Donc ce site est caractere academique (Nous recrutons, nous formons, nous ameliorons a partir d'une base qui est <span class="interlab">interlab Inc.</span> ):
+                        </p>
+                        <p class="m-0">Nous sommes une entreprise de services informatiques dedies aux entreprises et aux particuliers.
+                            Nous agissons dans les domaines de la fourniture, l'installation, de la maintenance, de la securisation et de la conception de votre systeme informatique. Nous pouvons vous offrir ainsi un suivi de votre parc reseaux afin d'optimiser votre strategie d'entreprise ou vous aider a avancer en etant un particulier.
+                            Notre equipe commerciale pourra aussi vous conseiller dans l'achat des equipement adequats avec votre domaine de travail ou de recherche qui sont fiables et performants.
+                        </p>
+                        <p class="m-0" >
+                            Nos experts techniques prendront egalement en charge tous les depannages informatiques ainsi que les installations de logiciles, vous assurant ainsi service apres vente efficace et reactif.
+                        Ils pourront egalement vous accompagner dans votre developpement informatique et des contrats de maintenance.
+                        </p>    
+                        <div class="col-lg-6 mx-auto shadow-lg px-2">
+                            <h4 class="text-center">NOS ATOUTS:</h4>
+                            <ul>
+                                <li>Une equipe pluridisciplinaire, dynamique et plurielle</li>
+                                <li>Une societe independante vis-a-vis des marques pour un conseil reelement objectif</li>
+                                <li>Des prestations multi-marques</li>
+                                <li>Le respect des engagements contractuels</li>
+                                <li>Un conseil a tous les niveaux des interventions</li>
+                                <li>un service reactif et de proximite</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

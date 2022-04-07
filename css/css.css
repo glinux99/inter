@@ -20,13 +20,17 @@
 .bord-top{
     border-top: 2px solid #0d6efd;
 }
-.parallax-window{
-    height: 15vh;
-    color:white
+.title-pic{
+    margin-bottom: 9vh;
+}
+.interlab{
+    color: green;
 }
 .soulign{
     border-bottom: 2px solid green;
 }
+
+
 @media screen and (max-width: 768px){
     .group-3{
         column-count: 1;
