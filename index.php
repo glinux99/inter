@@ -63,7 +63,7 @@
                     </div>
                 <?php $x++;}?>
             </div>
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center my-2">
                 <button class="btn btn-dark px-3 me-1">Back</button>
                 <button class="btn btn-success px-3">Next</button>
             </div>

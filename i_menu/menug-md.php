@@ -11,17 +11,17 @@
             </a>
         </li>
         <li class="nav-item text-center">
-            <a href="" class="nav-link h-50">
+            <a href="<?php echo $dir;?>i_services/services" class="nav-link h-50">
                 <i class="bi--2xl bi-briefcase"></i> <span class="ms-0"><?php echo _("Services");?></span>
             </a>
         </li>
         <li class="nav-item text-center">
-            <a href="" class="nav-link h-50">
+            <a href="<?php echo $dir;?>i_login/login?inscription" class="nav-link h-50">
                 <i class="bi--2xl bi-person"></i> <span class="ms-0"><?php echo _("Incription");?></span>
             </a>
         </li>
         <li class="nav-item text-center">
-            <a href="" class="nav-link h-50">
+            <a href="<?php echo $dir;?>i_pdf/librairie" class="nav-link h-50">
                 <i class="bi--2xl bi-file-earmark-pdf"></i> <span class="ms-0"><?php echo _("Livres");?></span>
             </a>
         </li>
