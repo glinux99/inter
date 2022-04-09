@@ -22,7 +22,7 @@
                 <!-- Fin du boutton menu gauche flottant et son button -->
             </div>
         </div>
-        <div class="vrai-body parallax-window w-100" data-parallax="scroll" data-image-src="i_img/inter7.jpg">
+        <div class="vrai-body parallax-window w-100 pt-4" data-parallax="scroll" data-image-src="i_img/inter7.jpg">
             <!-- Code ici -->
             <div class="card-title text-center h1 text-white title-pic">
                 <span class="soulign">A PROPOS</span>
@@ -33,7 +33,7 @@
                   z-index: 2;
                   background-color: #226dbc; height: 100%;">
                 </div> -->
-                <div class="position-absolute bg-white" style="z-index: 2;">
+                <div >
                     <div class="card px-3 my-2" style="text-align: justify;">
                         <p class="m-0">
                             Pour ce qui concernent Interlab, Interlab est une societe mis au point par des informaticiens 
