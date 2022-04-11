@@ -47,8 +47,28 @@
                 }?>
                 </div>
             </div>
-            <div class="all-pdf">
-                <h4 ><?php echo _("Tous les livres");?></h4>
+            <div class="all-pdf my-3">
+                <div class="row w-100 ">
+                    <div class="col-6">
+                        <h4 ><?php echo _("Tous les livres");?></h4>
+                    </div>
+                    <!-- <div class="col-6 d-flex justify-content-end mb-2">
+                        <form action="" method="post">
+                            <div class="d-flex justify-content-end">
+                                <input type="search" class="form-control w-50 mx-2">
+                                <button class="btn btn-success">Rechercher</button>
+                            </div>
+                        </form>
+                    </div> -->
+                    <div class="d-flex bg-dark">
+                        <nav class="nav nav-pills">
+                            <a class="nav-link active" aria-current="page" href="#">Tous</a>
+                            <a class="nav-link" href="#">Roman</a>
+                            <a class="nav-link" href="#">Bande dessine</a>
+                            <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Erotique</a> -->
+                        </nav>
+                    </div>
+                </div>
                 <div class="row w-100 mx-auto">
                     <?php $livres=[2,3,4,5,5,5,2,3,4,5,5,5];
                 foreach($livres as $livre){
