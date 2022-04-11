@@ -21,9 +21,9 @@
                 <!-- Fin du boutton menu gauche flottant et son button -->
             </div>
         </div>
-        <div class="my-2 col-lg-11 col-md-11">
+        <div class="my-2 col-lg-11 col-md-11 ">
             <!-- Code ici -->
-            <div class="border-start border-2 border-success ms-2 ps-2">
+            <div class="border-start border-2 border-success ms-2 ps-2 ">
                 <h4 ><?php echo _("Librairie en ligne");?></h4>
             </div>
             <div class="populaire m-2">
@@ -47,8 +47,8 @@
                 }?>
                 </div>
             </div>
-            <div class="all-pdf my-3">
-                <div class="row w-100 ">
+            <div class="all-pdf my-3 ">
+                <div class="row w-100 m-0 p-0">
                     <div class="col-6">
                         <h4 ><?php echo _("Tous les livres");?></h4>
                     </div>
@@ -60,11 +60,16 @@
                             </div>
                         </form>
                     </div> -->
-                    <div class="d-flex bg-dark">
-                        <nav class="nav nav-pills">
+                    <div class="d-flex justify-content-center my-2 mb-4">
+                        <nav class="nav nav-pills bg-dark rounded">
                             <a class="nav-link active" aria-current="page" href="#">Tous</a>
-                            <a class="nav-link" href="#">Roman</a>
-                            <a class="nav-link" href="#">Bande dessine</a>
+                            <a class="nav-link" href="#"><?php echo _("Roman");?></a>
+                            <a class="nav-link" href="#"><?php echo _("Bande dessine");?></a>
+                            <a href="" class="nav-link"><?php echo _("Suspense");?></a>
+                            <a href="" class="nav-link"><?php echo _("Sience Fiction");?></a>
+                            <a href="" class="nav-link"><?php echo _("Autobiographie");?></a>
+                            <a href="" class="nav-link"><?php echo _("Essaie");?></a>
+                            <a href="" class="nav-link"><?php echo _("Autres");?></a>
                             <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Erotique</a> -->
                         </nav>
                     </div>
