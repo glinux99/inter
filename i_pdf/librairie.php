@@ -61,15 +61,42 @@
                         </form>
                     </div> -->
                     <div class="d-flex justify-content-center my-2 mb-4">
-                        <nav class="nav nav-pills bg-dark rounded">
+                        <nav class="nav nav-pills bg-dark rounded navbar-expand-lg">
                             <a class="nav-link active" aria-current="page" href="#">Tous</a>
                             <a class="nav-link" href="#"><?php echo _("Roman");?></a>
                             <a class="nav-link" href="#"><?php echo _("Bande dessine");?></a>
-                            <a href="" class="nav-link"><?php echo _("Suspense");?></a>
-                            <a href="" class="nav-link"><?php echo _("Sience Fiction");?></a>
-                            <a href="" class="nav-link"><?php echo _("Autobiographie");?></a>
-                            <a href="" class="nav-link"><?php echo _("Essaie");?></a>
-                            <a href="" class="nav-link"><?php echo _("Autres");?></a>
+                            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".livre">
+                                <span class="bi-plus text-danger "></span>
+                            </button>
+                            <div class="collapse livre navbar-collapse">
+                                <ul class="nav justify-content-center">
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link"><?php echo _("Suspense");?></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link"><?php echo _("SFF");?></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link"><?php echo _("Autobiographie");?></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link"><?php echo _("Essaie");?></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link"><?php echo _("Temoignage");?></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link"><?php echo _("Autres");?></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <div class="my-auto d-md-none mx-auto">
+                                            <input type="search" name="" id="" style="width: 25vh;">
+                                            <button class="btn btn-primary m-0"><?php echo _("Rechercher");?></button>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <i class="bi--2xl bi-search text-primary mx-4 px-4 d-none d-md-block"></i>
                             <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Erotique</a> -->
                         </nav>
                     </div>
