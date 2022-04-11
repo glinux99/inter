@@ -31,7 +31,7 @@
             </a>
         </li>
         <li class="nav-item text-center">
-            <a href="" class="nav-link h-50">
+            <a href="<?php echo $dir;?>tutoriels/tutos" class="nav-link h-50">
                 <i class="bi--2xl bi-folder2-open"></i> <span class="ms-0"><?php echo _("Tutoriels");?></span>
             </a>
         </li>
