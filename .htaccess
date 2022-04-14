@@ -2,7 +2,7 @@ Options +FollowSymlinks
 RewriteEngine On  
 RewriteCond %{THE_REQUEST} ^(.+)\.php([#?][^\ ]*)?\ HTTP/
 RewriteCond %{HTTPS} !on
-RewriteRule ^(.+)\.php$ http://localhost/interlab/$1 [R=301]
+RewriteRule ^(.+)\.php$ http://localhost/inter/$1 [R=301]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f 
 RewriteRule ^(.*)$ $1.php
