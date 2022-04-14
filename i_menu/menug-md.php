@@ -31,7 +31,7 @@
             </a>
         </li>
         <li class="nav-item text-center">
-            <a href="" class="nav-link h-50">
+            <a href="<?php echo $dir;?>i_songs/songs" class="nav-link h-50">
                 <i class="bi--2xl bi-music-note-list"></i> <span class="ms-0"><?php echo _("Songs");?></span>
             </a>
         </li>  
