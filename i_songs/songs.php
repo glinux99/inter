@@ -8,8 +8,8 @@
     <title>Document</title>
 </head>
 <body>
-<div class="container col-5">
-  <div class="player-one"></div>
+<div class="container col-md-4">
+  <div class="player-one" style="height:200px"></div>
   <div class="player-two"></div>
 </div>
 <script src="player/js/main.js"></script>

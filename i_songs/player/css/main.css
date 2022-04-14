@@ -55,17 +55,17 @@ body {
 }
 .podcast__meta {
   border-bottom: 6px solid #89abe3;
-  max-height: 200px;
-  min-height: 200px;
+  max-height: 100%;
+  min-height: 100%;
   padding: 0 20px;
   position: relative;
-  width: calc(100% - 200px);
+  width: 53.6%;
 }
 .podcast__control {
   background-color: rgba(0, 0, 0, 0.3);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 55px;
+  background-size: 27.5%;
   cursor: pointer;
   height: 100%;
   left: 0;
@@ -77,7 +77,7 @@ body {
   will-change: background-size;
 }
 .podcast__control:hover {
-  background-size: 60px;
+  background-size: 30%;
 }
 .podcast__play {
   background-image: url(../svg/play.svg);
@@ -202,13 +202,13 @@ body {
   background: #fff;
   bottom: 0;
   cursor: pointer;
-  height: 6px;
+  height: 15%;
   position: absolute;
   width: 100%;
 }
 
 .line__current {
-  height: 6px;
+  height: 100%;
   position: absolute;
   width: 0%;
   background: #89abe3;
