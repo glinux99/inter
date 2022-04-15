@@ -1,5 +1,5 @@
 .podcast__cover {
-
+  background-size: cover;
   background-position: center;
   overflow: hidden;
   position: relative;
@@ -37,28 +37,15 @@
 
 
 
-body {
-  background: #f6f5f3;
-  font-family: Roboto, Arial, sans-serif;
-  font-size: 1em;
-  line-height: 1.5;
-}
 
-.podcast__title, .podcast__desc {
-  margin: 7.5% 0 2.5% 0;
-}
-.podcast__desc, .podcast__date {
-  margin: 0;
-}
 .podcast__desc {
   font-size: 16px;
-  margin-bottom: 7.5%;
+  
 }
 .podcast__date {
   color: #89abe3;
   font-size: 14px;
   /* margin-bottom: 5px; */
-  
 }
 
 .podcast__control {

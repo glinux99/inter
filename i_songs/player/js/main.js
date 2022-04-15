@@ -298,7 +298,7 @@
         el.setAttribute('class', 'podcast ' + classes);
 
         var plr = '<div class="row p-0 m-0">\
-        <div class="col-6 podcast__cover bg-danger position-relative p-0">\
+        <div class="col-6 podcast__cover position-relative p-0" style="background-image: url(' + info.imageSrc + ')">\
             <div class="podcast__volume volume">\
               <div class="volume-full"></div>\
               <div class="volume-line"></div>\
@@ -317,6 +317,12 @@
             <div class="podcast__visual">\
               <div class="visual__progress"></div>\
               <canvas></canvas>\
+            </div>\
+            <div class="podcast__text">\
+            <h3 class="podcast__title p-0 m-0 text-center">' + info.title + '</h3>\
+            <p class="podcast__date p-0 m-0">' + info.date + '</p>\
+            <p class="podcast__desc p-0 m-0" style="height: 3rem; overflow: hidden;">' + info.description + '</p>\
+            <p class="podcast__desc1 text-center"><a href="'+info.audioSrc +'" download>Telechargement <span class="glyphicon glyphicon-download-alt"></span></a></p>\
             </div>\
         </div>\
     </div>';
