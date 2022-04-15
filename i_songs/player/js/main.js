@@ -297,7 +297,7 @@
         el.setAttribute('data-src', info.audioSrc);
         el.setAttribute('class', 'podcast ' + classes);
 
-        var plr = '<div style="background-image: url(' + info.imageSrc + ')" class="podcast__cover col-6">\
+        var plr = '<div style="background-image: url(' + info.imageSrc + ')" class="p-0 podcast__cover col-6">\
                                     <div class="podcast__volume volume">\
                                         <div class="volume-full"></div>\
                                         <div class="volume-line"></div>\
