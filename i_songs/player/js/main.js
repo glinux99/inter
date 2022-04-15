@@ -297,7 +297,7 @@
         el.setAttribute('data-src', info.audioSrc);
         el.setAttribute('class', 'podcast ' + classes);
 
-        var plr = '<div style="background-image: url(' + info.imageSrc + ')" class="podcast__cover">\
+        var plr = '<div style="background-image: url(' + info.imageSrc + ')" class="podcast__cover col-6">\
                                     <div class="podcast__volume volume">\
                                         <div class="volume-full"></div>\
                                         <div class="volume-line"></div>\
@@ -312,16 +312,12 @@
                                         <div class="time__full">00:00:00</div>\
                                     </div>\
                                 </div>\
-                                <div class="podcast__meta">\
+                                <div class="podcast__meta col-6">\
                                     <div class="podcast__visual">\
                                         <div class="visual__progress"></div>\
                                         <canvas></canvas>\
                                     </div>\
-                                    <div class="podcast__text">\
-                                        <h3 class="podcast__title">' + info.title + '</h3>\
-                                        <p class="podcast__date">' + info.date + '</p>\
-                                        <p class="podcast__desc">' + info.description + '</p>\
-                                    </div>\
+                                    \
                                 </div>';
 
         el.innerHTML = plr;
