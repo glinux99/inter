@@ -28,7 +28,10 @@
                 <h4>Tous les musiques</h4>
             </div>
             <div class="row w-100 mx-auto">
-                  <div class="col-md-4 player-one" style="max-width: 25rem"></div>
+                <?php $x=0;
+                for($x=0; $x<6; $x++){
+                  echo '<div class="my-1 col-md-4 play'.$x.'" style="max-width: 25rem"></div>';
+                }?>
             </div>
         </div>
     </div>

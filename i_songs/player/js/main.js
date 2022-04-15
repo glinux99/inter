@@ -365,27 +365,16 @@ function linux(){
     var text=elt.innerText || elt.textContent;
     return text;
 }
-
-initPlayer('.player-one', {
-    audioSrc: 'player/songs/1.mp3',
-    imageSrc: 'player/img/1.jpg',
-    title: 'dddd',
-    date: '24.07.2016',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-}, {
-    on: true,
-    lineColor: '#e74c3c'
-});
-
-initPlayer('.player-two', {
-    audioSrc: 'songs/2.mp3',
-    imageSrc: 'img/2.jpg',
-    title: 'Gunnar Olsen – Flood Gates ',
-    date: '24.07.2016',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-}, {
-    on: true,
-    bg: '#ecf0f1',
-    textColor: '#000',
-    lineColor: '#2ecc71'
-});
+var x=0;
+for(x=0; x<6; x++){ 
+    initPlayer('.play'+x, {
+        audioSrc: 'player/songs/1.mp3',
+        imageSrc: 'player/img/1.jpg',
+        title: 'dddd',
+        date: '24.07.2016',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    }, {
+        on: true,
+        lineColor: '#e74c3c'
+    });
+}
