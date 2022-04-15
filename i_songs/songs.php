@@ -11,10 +11,8 @@
  
 </style>
 <body>
-<div class="m-2" style="">
-  <div class="player-one row m-auto bg-danger col-md-3" style="height:10rem;">
-  
-</div>
+  <div class="col-md-4 player-one" style="max-width: 25rem">    
+  </div>
 <script src="player/js/main.js"></script>
 </body>
 </html>

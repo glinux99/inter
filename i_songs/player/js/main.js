@@ -297,28 +297,29 @@
         el.setAttribute('data-src', info.audioSrc);
         el.setAttribute('class', 'podcast ' + classes);
 
-        var plr = '<div style="background-image: url(' + info.imageSrc + ')" class="p-0 podcast__cover col-6">\
-                                    <div class="podcast__volume volume">\
-                                        <div class="volume-full"></div>\
-                                        <div class="volume-line"></div>\
-                                    </div>\
-                                    <div class="podcast__control podcast__play "></div>\
-                                    <div class="podcast__loader"></div>\
-                                    <div class="podcast__time time">\
-                                        <div class="time__current">00:00:00</div>\
-                                        <div class="time__line">\
-                                            <div class="line__current"></div>\
-                                        </div>\
-                                        <div class="time__full">00:00:00</div>\
-                                    </div>\
-                                </div>\
-                                <div class="podcast__meta col-6">\
-                                    <div class="podcast__visual">\
-                                        <div class="visual__progress"></div>\
-                                        <canvas></canvas>\
-                                    </div>\
-                                    \
-                                </div>';
+        var plr = '<div class="row p-0 m-0">\
+        <div class="col-6 podcast__cover bg-danger position-relative p-0">\
+            <div class="podcast__volume volume">\
+              <div class="volume-full"></div>\
+              <div class="volume-line"></div>\
+            </div>\
+            <div class="podcast__control podcast__play "></div>\
+            <div class="podcast__loader"></div>\
+            <div class="podcast__time time">\
+              <div class="time__current">00:00:00</div>\
+              <div class="time__line">\
+                 <div class="line__current"></div>\
+              </div>\
+              <div class="time__full">00:00:00</div>\
+            </div>\
+        </div>\
+        <div class="col-6 podcast__meta bg-success position-relative p-0">\
+            <div class="podcast__visual">\
+              <div class="visual__progress"></div>\
+              <canvas></canvas>\
+            </div>\
+        </div>\
+    </div>';
 
         el.innerHTML = plr;
     }
