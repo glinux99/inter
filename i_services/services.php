@@ -92,7 +92,7 @@
                          ecoute... Nous choisir, c'est la rapidite et l'efficacite, et suivre les normes..."
                     ));
                     foreach($x as $items){
-                        echo '<div class="card my-2 col-md-5 mx-1" style="text-align: justify;">';
+                        echo '<div class="card my-2 col-md-5  mx-1" style="text-align: justify;">';
                         echo '<div class="card-title">'.$items['titre'].'</div>';
                         echo '<div class="card-body">'.$items['body'].'</div></div>';
                     }

@@ -25,7 +25,7 @@
         <div class="bg-white d-block w-100">
             <!-- Code ici -->
             <div class="carousel in w-100" data-bs-ride="carousel">
-            <?php $rires =[
+            <?php $rire =[
                 [
                     'titre'=>'Rire soigne',
                     'body'=>"Grâce au rire, vous oxygénez votre organisme, réduisez vos tensions
@@ -75,9 +75,9 @@
                 ];?>
                 <div class="carousel-inner">
                     <div class="carousel-item active ">
-                        <div class="col-md-5 mx-auto py-2">
+                        <div class="col-md-5 mx-auto">
                             <div class="mx-1 border-start-0 border border-3  bg-white rounded-end   ">
-                                <div class="px-2 border-start border-success border-5">
+                                <div class="px-2 border-start border-success border-5 py-2">
                                     <h4 class="text-center">Rire est bon</h4>
                                     <p class="m-0 text-muted">Rire diminue la sensation de douleur et booste le système immunitaire</p>
                                 </div>
@@ -86,9 +86,9 @@
                     </div>
                     <?php foreach($rires as $rire){
                         echo '<div class="carousel-item">
-                        <div class="col-md-5 mx-auto py-2">
+                        <div class="col-md-5 mx-auto">
                             <div class="mx-1 border-start-0 border border-3  bg-white rounded-end   ">
-                                <div class=" border-start border-success border-5">
+                                <div class=" border-start border-success border-5 py-2">
                                     <h4 class="text-center">'.$rire["titre"].'</h4>
                                     <p class="m-0 lh-1 small d-md-none d-lg-none px-1 text-muted" style="text-align: justify;">
                                         '.$rire["body"].'
@@ -104,7 +104,18 @@
                 </div>
             </div>
             <div class="contenu">
-                    
+                <ul class="nav nav-tabs col-md-5 mx-auto" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="active nav-link" type="button" id="acceuil-tab" data-bs-toggle="tab" data-bs-target="#acceuil" role="tab" aria-controls="acceuil" aria-selected="true">Messages/Prov</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" type="button" id="images-tab" data-bs-toggle="tab" data-bs-target="#images" role="tab" aria-controls="images" aria-selected="false">Videos/Photos amusantes </button>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="acceuil" role="tabpanel" aria-labelledby="acceuil-tab">Acceuil</div>
+                    <div class="tab-pane fade" id="images" role="tabpanel" aria-labelledby="images-tab">Images amusantes</div>
+                </div>
             </div>
         </div>
     </div>
