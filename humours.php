@@ -24,7 +24,7 @@
         </div>
         <div class="bg-white d-block w-100">
             <!-- Code ici -->
-            <div class="carousel slide w-100" data-bs-ride="carousel">
+            <div class="carousel in w-100" data-bs-ride="carousel">
             <?php $rires =[
                 [
                     'titre'=>'Rire soigne',
@@ -39,7 +39,7 @@
                     artérielle au bout de quelques minutes"
                 ],
                 [
-                    'titre'=>"Le Rire combat les émotions négatives ",
+                    'titre'=>"Combat les émotions négatives ",
                     'body'=>"Le rire permet de tenir les émotions négatives à distance. 
                     Il dénoue les tensions, apaise la colère, amoindrit la tristesse. Rire permet en cela de lutter contre la dépression, l’anxiété."
                 ],
@@ -66,7 +66,7 @@
                      amicales et/ou amoureuses."
                 ],
                 [
-                    'titre'=>"Le rire booste les performances sexuelles",
+                    'titre'=>"booste les performances sexuelles",
                     'body'=>"Le rire rend séduisant dans un premier temps, conformément à l’adage 
                     “Femme /homme qui rit, à moitié dans son lit”. En outre, il permet le relâchement 
                     musculaire et la détente 
@@ -75,25 +75,25 @@
                 ];?>
                 <div class="carousel-inner">
                     <div class="carousel-item active ">
-                        <div class="col-md-5 mx-auto">
+                        <div class="col-md-5 mx-auto py-2">
                             <div class="mx-1 border-start-0 border border-3  bg-white rounded-end   ">
                                 <div class="px-2 border-start border-success border-5">
-                                    <h4>Rire est bon</h4>
-                                    <p class="m-0 ">Rire diminue la sensation de douleur et booste le système immunitaire</p>
+                                    <h4 class="text-center">Rire est bon</h4>
+                                    <p class="m-0 text-muted">Rire diminue la sensation de douleur et booste le système immunitaire</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <?php foreach($rires as $rire){
                         echo '<div class="carousel-item">
-                        <div class="col-md-5 mx-auto">
+                        <div class="col-md-5 mx-auto py-2">
                             <div class="mx-1 border-start-0 border border-3  bg-white rounded-end   ">
                                 <div class=" border-start border-success border-5">
-                                    <h4>'.$rire["titre"].'</h4>
-                                    <p class="m-0 lh-1 small d-md-none d-lg-none px-1 text-right">
+                                    <h4 class="text-center">'.$rire["titre"].'</h4>
+                                    <p class="m-0 lh-1 small d-md-none d-lg-none px-1 text-muted" style="text-align: justify;">
                                         '.$rire["body"].'
-                                    </p>
-                                    <p class="m-0 lh-1 d-none d-lg-block d-md-block px-2">
+                                    </p> 
+                                    <p class="m-0 lh-1 d-none d-lg-block d-md-block px-2 text-muted" style="text-align: justify;">
                                         '.$rire["body"].'
                                     </p>
                                 </div>
@@ -102,6 +102,9 @@
                     </div>';
                     }?>
                 </div>
+            </div>
+            <div class="contenu">
+                    
             </div>
         </div>
     </div>
