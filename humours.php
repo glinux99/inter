@@ -22,9 +22,26 @@
                 <!-- Fin du boutton menu gauche flottant et son button -->
             </div>
         </div>
-        <div class="vrai-body parallax-window w-100 pt-4" data-parallax="scroll" data-image-src="i_img/inter7.jpg">
+        <div class="bg-white d-block w-100">
             <!-- Code ici -->
-            
+            <div class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner mt-3">
+                    <div class="carousel-item active">
+                        <div class="border-start-0 border border-3 col-md-5 bg-white rounded-end  mx-auto ">
+                            <div class=" border-start border-success border-5">
+                                <h4>Rire est bon</h4>
+                                <p class="m-0">Rire diminue la sensation de douleur et booste le système immunitaire</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class=" border-start border-success border-5">
+                            <h4>Rire est bon</h4>
+                            <p class="m-0">Rire diminue la sensation de douleur et booste le système immunitaire</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="footer">
