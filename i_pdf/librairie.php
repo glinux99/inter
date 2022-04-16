@@ -69,7 +69,7 @@
                                 <span class="bi-plus text-danger "></span>
                             </button>
                             <div class="collapse livre navbar-collapse">
-                                <ul class="nav justify-content-center">
+                                <ul class="nav justify-content-center pb-2">
                                     <li class="nav-item">
                                         <a href="" class="nav-link"><?php echo _("Suspense");?></a>
                                     </li>

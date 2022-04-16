@@ -113,8 +113,56 @@
                     </li>
                 </ul>
                 <div class="tab-content">
-                    <div class="tab-pane fade show active" id="acceuil" role="tabpanel" aria-labelledby="acceuil-tab">Acceuil</div>
-                    <div class="tab-pane fade" id="images" role="tabpanel" aria-labelledby="images-tab">Images amusantes</div>
+                    <div class="tab-pane fade show active" id="acceuil" role="tabpanel" aria-labelledby="acceuil-tab">
+                        <div class="d-flex justify-content-center my-2 mb-4">
+                            <nav class="nav nav-pills bg-dark rounded navbar-expand-lg">
+                                <a class="nav-link active" aria-current="page" href="#">Tous</a>
+                                <a class="nav-link" href="#"><?php echo _("Sms amours");?></a>
+                                <a class="nav-link" href="#"><?php echo _("Sms blagues");?></a>
+                                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".livre">
+                                    <span class="bi-plus text-danger "></span>
+                                </button>
+                                <div class="collapse livre navbar-collapse">
+                                    <ul class="nav justify-content-center pb-2">
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link"><?php echo _("Proverbes");?></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link"><?php echo _("Citations");?></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link"><?php echo _("Autres");?></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <div class="my-auto d-md-none mx-auto">
+                                                <input type="search" name="" id="" style="width: 25vh;">
+                                                <button class="btn btn-primary m-0"><?php echo _("Rechercher");?></button>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <i class="bi--2xl bi-search text-primary mx-4 px-4 d-none d-md-block"></i>
+                                <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Erotique</a> -->
+                            </nav>
+                        </div>
+                        Acceuil
+                    </div>
+                    <div class="tab-pane fade" id="images" role="tabpanel" aria-labelledby="images-tab">
+                        <div class="col-md-5 mx-auto">
+                            <div class=" my-2 mb-4 ">
+                                <nav class="nav nav-pills bg-dark rounded navbar-expand-lg nav-justified">
+                                    <a class="nav-link active" aria-current="page" href="#">Tous</a>
+                                    <a class="nav-link" href="#"><?php echo _("Photo");?></a>
+                                    <a class="nav-link" href="#"><?php echo _("Video");?></a>
+                                    <a href="" class="nav-link"><?php echo _("Gift");?></a>
+                                    <a href="" class="nav-link"><?php echo _("Autres");?></a>
+                                    <i class="bi--2xl bi-search text-primary"></i>
+                                    <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Erotique</a> -->
+                                </nav>
+                            </div>
+                        </div>    
+                    Images amusantes
+                    </div>
                 </div>
             </div>
         </div>
