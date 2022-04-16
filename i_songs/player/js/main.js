@@ -321,7 +321,7 @@
             <div class="podcast__text">\
             <h3 class="podcast__title p-0 m-0 text-center">' + info.title + '</h3>\
             <p class="podcast__date p-0 m-0">' + info.date + '</p>\
-            <p class="podcast__desc p-0 m-0" style="height: 3rem; overflow: hidden;">' + info.description + '</p>\
+            <p class="podcast__desc px-2 m-0" style="height: 11vh; overflow: hidden;">' + info.description + '</p>\
             <p class="podcast__desc1 text-center"><a href="'+info.audioSrc +'" download>Telechargement <span class="glyphicon glyphicon-download-alt"></span></a></p>\
             </div>\
         </div>\
