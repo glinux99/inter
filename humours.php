@@ -145,7 +145,37 @@
                                 <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Erotique</a> -->
                             </nav>
                         </div>
-                        Acceuil
+                        <div class="mx-1">
+                            <div class="card col-md-7 mx-auto">
+                                <div class="title">Bonne nouvelle</div>
+                                <div class="card-body p-2 text-justify">
+                                    <p class="card-text">
+                                    Vous etes amoureux de la poesie, des poemes d'amour? Sachez-bien qu'il est possible de partager
+                                  votre savoir et votre passion ensemble aux autres. Toute fois, vos textes doivent être rédigés dans un francais correct et respectueux
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mx-1">
+                                <div class="col-md-6 border-start border-2 border-success ps-2">
+                                    <h4><?php echo _("Quelques de nos ribriques");?></h4>
+                                </div> 
+                                <div class="card mb-3  col-md-5">
+                                        <div class="row g-0">
+                                            <div class="col-4 d-flex">
+                                                <img src="i_pdf/img1.jpg" class="img-fluid rounded-start" alt="amour">
+                                            </div>
+                                            <div class="col-8">
+                                                <div class="card-body  p-0 overflow-hidden">
+                                                    <h5 class="card-title text-center"><?php echo _("Sms d'amour");?> </h5>
+                                                    <p class="card-text text-justify px-1"><?php echo _("Si vous voulez satisfaire l'amour de votre vie, n'hesitez pas a parcourir notre ribrique 
+                                                    consacre aux sms, poemes d'amour faites par des hauteurs connus ou par les internautes. Chassez que vous 
+                                                    pouvez aussi nous faire par de votre contenu a ajouter");?></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="tab-pane fade" id="images" role="tabpanel" aria-labelledby="images-tab">
                         <div class="col-md-5 mx-auto">
@@ -156,7 +186,7 @@
                                     <a class="nav-link" href="#"><?php echo _("Video");?></a>
                                     <a href="" class="nav-link"><?php echo _("Gift");?></a>
                                     <a href="" class="nav-link"><?php echo _("Autres");?></a>
-                                    <i class="bi--2xl bi-search text-primary"></i>
+                                    <i class="bi--2  xl bi-search text-primary"></i>
                                     <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Erotique</a> -->
                                 </nav>
                             </div>
