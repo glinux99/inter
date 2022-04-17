@@ -172,6 +172,14 @@
                                                     pouvez aussi nous faire par de votre contenu a ajouter");?></p>
                                                 </div>
                                             </div>
+                                            <div class="col-8">
+                                                <div class="card-body  p-0 overflow-hidden">
+                                                    <h5 class="card-title text-center"><?php echo _("Sms d'amour");?> </h5>
+                                                    <p class="card-text text-justify px-1"><?php echo _("Si vous voulez satisfaire l'amour de votre vie, n'hesitez pas a parcourir notre ribrique 
+                                                    consacre aux sms, poemes d'amour faites par des hauteurs connus ou par les internautes. Chassez que vous 
+                                                    pouvez aussi nous faire par de votre contenu a ajouter");?></p>
+                                                </div>
+                                            </div>
                                         </div>
                                 </div>
                             </div>
