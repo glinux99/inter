@@ -192,7 +192,7 @@
                                 </nav>
                             </div>
                         </div>    
-                    Images amusantes
+                    Images amusanteso
                     </div>
                 </div>
             </div>
