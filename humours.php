@@ -195,20 +195,17 @@
                                 ] ;?>
                                 <div class="row p-0 m-0 mx-auto d-flex justify-content-center">
                                     <?php foreach($ribriques as $ribrique){
-                                        echo '<div class="card mb-3  col-md-5 mx-1">
+                                        echo '<div class="card mb-3  col-md-5 mx-1 p-0">
                                         <div class="row g-0 p-0 m-0">
                                             <div class="col-4 d-flex">
                                                 <img src="'.$ribrique['image'].'" class="img-fluid rounded-start imge d-none d-md-block d-lg-block" alt="amour" style="height: 40vh!important;">
                                                 <img src="'.$ribrique['image'].'" class="img-fluid rounded-start imge d-md-none d-lg-none" alt="amour" style="height: 20vh!important;">
                                             </div>
-                                            <div class="col-8">
-                                                <div class="card-body  p-0 overflow-hidden">
-                                                    <h5 class="card-title text-center">'.$ribrique["titre"].'</h5>
-                                                    <p class="card-text text-justify px-1 d-none d-md-block d-lg-block" style="max-height: 40vh!important;">'.$ribrique["body"].'</p>
-                                                    <p class="card-text text-justify px-1 d-md-none d-lg-none" style="max-height: 20vh!important;">'.$ribrique["body"].'</p>
-                                                    <p class="text-center m-0 p-1">
-                                                        <button type="submit" class="btn btn-success">Lire plus</button>
-                                                    </p>
+                                            <div class="col-8 overflow-hidden"  style="max-height: 20vh!important;">
+                                                <div class="card-body  p-0 overflow-hidden ">
+                                                    <h5 class="card-title text-center mt-1 mb-0">'.$ribrique["titre"].'</h5>
+                                                    <p class="card-text text-justify px-1 overflow-hidden m-0" style="max-height: 16vh!important;">'.$ribrique["body"].'</p>
+                                                    <!--<a class="nav-link bg-dark d-inline p-0 m-0">Lire plus </a>-->
                                                 </div>
                                             </div>    
                                         </div>
