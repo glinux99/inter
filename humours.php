@@ -156,7 +156,7 @@
                                 </div>
                             </div>
                             <div class="mx-1">
-                                <div class="col-md-6 border-start border-2 border-success ps-2">
+                                <div class="col-md-10 border-start border-2 border-success ps-2 mx-auto">
                                     <h4><?php echo _("Quelques de nos ribriques");?></h4>
                                 </div> 
                                 <?php $ribriques =[
@@ -173,7 +173,7 @@
                                         'body'=>"Si vous voulez satisfaire l'amour de votre vie, n'hesitez pas a parcourir notre ribrique 
                                         consacre aux sms, poemes d'amour faites par des hauteurs connus ou par les internautes. Chassez que vous 
                                         pouvez aussi nous faire par de votre contenu a ajouter",
-                                        'image'=>"i_pdf/img1.jpg",
+                                        'image'=>"i_img/inter2.jpg",
                                         'lien'=>'#'
                                     ],
                                     [
@@ -193,17 +193,19 @@
                                         'lien'=>'#'
                                     ],
                                 ] ;?>
-                                <div class="row w-100 p-0 m-0">
+                                <div class="row p-0 m-0 mx-auto d-flex justify-content-center">
                                     <?php foreach($ribriques as $ribrique){
                                         echo '<div class="card mb-3  col-md-5 mx-1">
                                         <div class="row g-0 p-0 m-0">
                                             <div class="col-4 d-flex">
-                                                <img src="i_pdf/img1.jpg" class="img-fluid rounded-start" alt="amour">
+                                                <img src="'.$ribrique['image'].'" class="img-fluid rounded-start imge d-none d-md-block d-lg-block" alt="amour" style="height: 40vh!important;">
+                                                <img src="'.$ribrique['image'].'" class="img-fluid rounded-start imge d-md-none d-lg-none" alt="amour" style="height: 20vh!important;">
                                             </div>
                                             <div class="col-8">
                                                 <div class="card-body  p-0 overflow-hidden">
                                                     <h5 class="card-title text-center">'.$ribrique["titre"].'</h5>
-                                                    <p class="card-text text-justify px-1">'.$ribrique["body"].'</p>
+                                                    <p class="card-text text-justify px-1 d-none d-md-block d-lg-block" style="max-height: 40vh!important;">'.$ribrique["body"].'</p>
+                                                    <p class="card-text text-justify px-1 d-md-none d-lg-none" style="max-height: 20vh!important;">'.$ribrique["body"].'</p>
                                                     <p class="text-center m-0 p-1">
                                                         <button type="submit" class="btn btn-success">Lire plus</button>
                                                     </p>
@@ -212,6 +214,10 @@
                                         </div>
                                     </div>';
                                     }?>
+                                </div>
+                                <div class="d-flex justify-content-center my-2">
+                                    <button class="btn btn-dark px-3 me-1">Back</button>
+                                    <button class="btn btn-success px-3">Next</button>
                                 </div>
                             </div>
                         </div>
