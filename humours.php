@@ -198,14 +198,14 @@
                                         echo '<div class="card mb-3  col-md-5 mx-1 p-0">
                                         <div class="row g-0 p-0 m-0">
                                             <div class="col-4 d-flex">
-                                                <img src="'.$ribrique['image'].'" class="img-fluid rounded-start imge d-none d-md-block d-lg-block" alt="amour" style="height: 40vh!important;">
-                                                <img src="'.$ribrique['image'].'" class="img-fluid rounded-start imge d-md-none d-lg-none" alt="amour" style="height: 20vh!important;">
+                                                <img src="'.$ribrique['image'].'" class="img-fluid rounded-start imge d-none d-md-block d-lg-block" alt="amour" style="height: 40vh!important;width:100%">
+                                                <img src="'.$ribrique['image'].'" class="img-fluid rounded-start imge d-md-none d-lg-none" alt="amour" style="height: 20vh!important;width:100%">
                                             </div>
-                                            <div class="col-8 overflow-hidden"  style="max-height: 20vh!important;">
+                                            <div class="col-8 overflow-hidden"  style="max-height: 25vh!important;">
                                                 <div class="card-body  p-0 overflow-hidden ">
                                                     <h5 class="card-title text-center mt-1 mb-0">'.$ribrique["titre"].'</h5>
-                                                    <p class="card-text text-justify px-1 overflow-hidden m-0" style="max-height: 16vh!important;">'.$ribrique["body"].'</p>
-                                                    <!--<a class="nav-link bg-dark d-inline p-0 m-0">Lire plus </a>-->
+                                                    <p class="card-text text-justify px-1 overflow-hidden m-0 " style="max-height: 16.3vh!important;">'.$ribrique["body"].'</p>
+                                                    <p class="d-flex justify-content-center "><button type="button" class="btn btn-success py-1 px-3 m-0">Lire plus </button></p>
                                                 </div>
                                             </div>    
                                         </div>

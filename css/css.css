@@ -40,6 +40,7 @@
     height: 300px!important;
 }
 
+
 @media screen and (max-width: 768px){
     .group-3{
         column-count: 1;
