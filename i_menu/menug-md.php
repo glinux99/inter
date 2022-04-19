@@ -6,7 +6,7 @@
             </a>
         </li>
         <li class="nav-item text-center">
-            <a href="<?php echo $dir;?>humours" class="nav-link h-50">
+            <a href="<?php echo $dir;?>i_humours/humours" class="nav-link h-50">
                 <i class="bi--2xl bi-chat-right-dots"></i> <span class="ms-0"><?php echo _("Humours");?></span>
             </a>
         </li>
