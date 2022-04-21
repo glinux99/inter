@@ -8,7 +8,7 @@
     <div class="collapse navbar-collapse coll justify-content-center">
         <ul class="nav nav-pills bi--lg" role="tablist" style="display: ;">
             <li class="navbar-item">
-                <a class="nav-link" href="/inter/" role="tab" aria-selected="true">
+                <a class="nav-link" href="/" role="tab" aria-selected="true">
                     <span class="bi-house-door"></span><?php echo _(" Acceuil");?>
                 </a>
             </li>

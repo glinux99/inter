@@ -146,7 +146,8 @@
                         </div>
                         <div class="mx-1">
                             <!-- Body -->
-                            <?php if(isset($_GET['sms'])){
+                            <?php if(isset($_GET['sms'] 
+                            )){
                                     $pages = 'sms_amour.php';
                                 }else $pages = 'acceuil.php';
                                 include($pages);?>

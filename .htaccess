@@ -2,10 +2,10 @@ Options +FollowSymlinks
 RewriteEngine On  
 RewriteCond %{THE_REQUEST} ^(.+)\.php([#?][^\ ]*)?\ HTTP/
 RewriteCond %{HTTPS} !on
-RewriteRule ^(.+)\.php$ http://localhost/inter/$1 [R=301]
-RewriteRule ^i_humours/humours/(.*)/?$    http://localhost/inter/i_humours/humours.php?ok  [QSA, L]
-RewriteRule ^(.+)\?(.*)$ http://localhost/inter/$1 [R=301]
+RewriteRule ^(.+)\.php$ $1/ [R=301]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f 
-RewriteRule ^(.*)$ $1.php
-RewriteRule ^(.*)\?(.*)$ $1.php
+RewriteRule ^(.*)/?$ $1.php
+# RewriteRule ^(.*)\/amour$ ^$1 [R=301]
+
+
