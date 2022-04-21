@@ -116,7 +116,7 @@
                         <div class="d-flex justify-content-center my-2 mb-4">
                             <nav class="nav nav-pills bg-dark rounded navbar-expand-lg">
                                 <a class="nav-link active" aria-current="page" href="<?php echo $dir.'i_humours/humours';?>">Tous</a>
-                                <a class="nav-link" href="<?php echo $dir.'i_humours/humours/amour';?>"><?php echo _("Sms amours");?></a>
+                                <a class="nav-link" href="<?php echo $dir.'i_humours/humours-amour';?>"><?php echo _("Sms amours");?></a>
                                 <a class="nav-link" href="#"><?php echo _("Sms blagues");?></a>
                                 <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".livre">
                                     <span class="bi-plus text-danger "></span>
