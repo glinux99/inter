@@ -16,7 +16,7 @@
             </a>
         </li>
         <li class="nav-item text-center">
-            <a href="<?php echo $dir;?>i_login/login?inscription" class="nav-link h-50">
+            <a href="<?php echo $dir;?>i_login/login-inscription" class="nav-link h-50">
                 <i class="bi--2xl bi-person"></i> <span class="ms-0"><?php echo _("Incription");?></span>
             </a>
         </li>

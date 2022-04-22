@@ -103,34 +103,53 @@
                 </div>
             </div>
             <div class="contenu">
+                <?php
+                $sms = "active";
+                $video ="";
+                $showSms ="show active";
+                $showVideo ="";
+                $toutSms =1;
+                if(isset($_GET['sms'])){
+                    $toutAff=1;
+                    $toutSms =0;
+                    $video = array("photo", "video","gift", "autres_vid","active");
+                    if(in_array($_GET['sms'], $video)){
+                      $sms = "";
+                      $video ="active";
+                      $showSms ="";
+                      $showVideo ="show active";
+                    }
+                    if($_GET['sms']=='active')$toutSms =1;
+                }
+                 ?>
                 <ul class="nav nav-tabs col-md-5 mx-auto" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="active nav-link" type="button" id="acceuil-tab" data-bs-toggle="tab" data-bs-target="#acceuil" role="tab" aria-controls="acceuil" aria-selected="true">Messages/Prov</button>
+                        <button class="<?php echo $sms;?> nav-link" type="button" id="acceuil-tab" data-bs-toggle="tab" data-bs-target="#acceuil" role="tab" aria-controls="acceuil" aria-selected="true">Messages/Prov</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" type="button" id="images-tab" data-bs-toggle="tab" data-bs-target="#images" role="tab" aria-controls="images" aria-selected="false">Videos/Photos amusantes </button>
+                        <button class="nav-link <?php echo $video;?>" type="button" id="images-tab" data-bs-toggle="tab" data-bs-target="#images" role="tab" aria-controls="images" aria-selected="false">Videos/Photos amusantes </button>
                     </li>
                 </ul>
                 <div class="tab-content">
-                    <div class="tab-pane fade show active" id="acceuil" role="tabpanel" aria-labelledby="acceuil-tab">
+                    <div class="tab-pane fade <?php echo $showSms;?>" id="acceuil" role="tabpanel" aria-labelledby="acceuil-tab">
                         <div class="d-flex justify-content-center my-2 mb-4">
                             <nav class="nav nav-pills bg-dark rounded navbar-expand-lg">
                                 <a class="nav-link active" aria-current="page" href="<?php echo $dir.'i_humours/humours';?>">Tous</a>
                                 <a class="nav-link" href="<?php echo $dir.'i_humours/humours-amour';?>"><?php echo _("Sms amours");?></a>
-                                <a class="nav-link" href="#"><?php echo _("Sms blagues");?></a>
+                                <a class="nav-link" href="<?php echo $dir.'i_humours/humours-blagues';?>"><?php echo _("Sms blagues");?></a>
                                 <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".livre">
                                     <span class="bi-plus text-danger "></span>
                                 </button>
                                 <div class="collapse livre navbar-collapse">
                                     <ul class="nav justify-content-center pb-2">
                                         <li class="nav-item">
-                                            <a href="" class="nav-link"><?php echo _("Proverbes");?></a>
+                                            <a href="<?php echo $dir.'i_humours/humours-proverbes';?>" class="nav-link"><?php echo _("Proverbes");?></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="" class="nav-link"><?php echo _("Citations");?></a>
+                                            <a href="<?php echo $dir.'i_humours/humours-citations';?>" class="nav-link"><?php echo _("Citations");?></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="" class="nav-link"><?php echo _("Autres");?></a>
+                                            <a href="<?php echo $dir.'i_humours/humours-autres';?>" class="nav-link"><?php echo _("Autres");?></a>
                                         </li>
                                         <li class="nav-item">
                                             <div class="my-auto d-md-none mx-auto">
@@ -146,28 +165,141 @@
                         </div>
                         <div class="mx-1">
                             <!-- Body -->
-                            <?php if(isset($_GET['sms'] 
-                            )){
-                                    $pages = 'sms_amour.php';
-                                }else $pages = 'acceuil.php';
-                                include($pages);?>
+                            <?php if(isset($_GET['sms'])){
+                                $items =[];
+                                switch($_GET['sms']){
+                                    case 'amour':
+                                        $ribrique ="Amour";
+                                        $items =[1,2,3];
+                                        $ribLogo = "bi-chat-fill";
+                                        break;
+                                    case 'blagues':
+                                        $ribrique ="Blagues";
+                                        $items =[1,2,3,4];
+                                        $ribLogo = "bi-emoji-heart-eyes-fill";
+                                        break;
+                                    case 'proverbes':
+                                        $ribrique ="Proverbes";
+                                        $items =[1,2,3,4,5,6];
+                                        $ribLogo = "bi-hurricane";
+                                        break;
+                                    case 'citations':
+                                        $ribrique ="Citations";
+                                        $items =[1,2,4];
+                                        $ribLogo = "bi-journal-text";
+                                        break;
+                                    case 'autres':
+                                        $ribrique ="Autres"; 
+                                        $items =[1,4];
+                                        break;
+                                    default : 
+                                        $toutAff=0;
+                                        $toutSms =1;
+                                        break;
+                                }
+                                if($toutAff){
+                                    echo '
+                                    <div class="list-group col-md-8 mx-auto">
+                                        <div class="card-header h4 text-uppercase">
+                                            <span class="'.$ribLogo.'"></span> '.$ribrique.'
+                                        </div>';
+                                    foreach($items as $item){
+                                        echo '
+                                            <div class="list-group-item">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ab.
+                                                </p>
+                                                <div class="text-end me-5">
+                                                    <i>_Richar CoolSOn</i>
+                                                </div>
+                                            </div>
+                                        ';
+                                    }
+                                        
+                                echo '  <div class="d-flex justify-content-center my-2">
+                                            <button class="btn btn-dark px-3 me-1">Back</button>
+                                            <button class="btn btn-success px-3">Next</button>
+                                        </div>
+                                    </div>
+                                ';
+                                }
+                            }
+                            if($toutSms)    include('ribriques.php');
+                            ?>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="images" role="tabpanel" aria-labelledby="images-tab">
+                    <div class="tab-pane fade <?php echo $showVideo;?>" id="images" role="tabpanel" aria-labelledby="images-tab">
                         <div class="col-md-5 mx-auto">
                             <div class=" my-2 mb-4 ">
                                 <nav class="nav nav-pills bg-dark rounded navbar-expand-lg nav-justified">
-                                    <a class="nav-link active" aria-current="page" href="#">Tous</a>
-                                    <a class="nav-link" href="#"><?php echo _("Photo");?></a>
-                                    <a class="nav-link" href="#"><?php echo _("Video");?></a>
-                                    <a href="" class="nav-link"><?php echo _("Gift");?></a>
-                                    <a href="" class="nav-link"><?php echo _("Autres");?></a>
+                                    <a class="nav-link active" aria-current="page" href="<?php echo $dir.'i_humours/humours-active';?>">Tous</a>
+                                    <a class="nav-link" href="<?php echo $dir.'i_humours/humours-photo';?>"><?php echo _("Photo");?></a>
+                                    <a class="nav-link" href="<?php echo $dir.'i_humours/humours-video';?>"><?php echo _("Video");?></a>
+                                    <a href="<?php echo $dir.'i_humours/humours-gift';?>" class="nav-link"><?php echo _("Gift");?></a>
+                                    <a href="<?php echo $dir.'i_humours/humours-autres';?>" class="nav-link"><?php echo _("Autres");?></a>
                                     <i class="bi--xl bi-search text-primary mt-1"></i>
                                     <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Erotique</a> -->
                                 </nav>
                             </div>
                         </div>    
-                    Images amusantes
+                        <div class="mx-1">
+                            <?php if(isset($_GET['sms'])){
+                                $items =[];
+                                $toutAff=1;
+                                $toutSms=0;
+                                switch($_GET['sms']){
+                                    case 'photo':
+                                        $ribrique ="Photo Amusantes";
+                                        $ribLogo = "bi-file-image";
+                                        $items =[1,2,3];
+                                        break;
+                                    case 'video':
+                                        $ribrique ="Videos Amusantes";
+                                        $items =[1,2,3,4];
+                                        $ribLogo = "bi-camera-video-fill";
+                                        break;
+                                    case 'gift':
+                                        $ribrique ="Gift Amusantes";
+                                        $items =[1,2,3,4,5,6];
+                                        break;
+                                    case 'autres':
+                                        $ribrique ="Autres"; 
+                                        $items =[1,4];
+                                        break;
+                                    default : 
+                                        $toutAff=0;
+                                        $toutSms =1;
+                                        break;
+                                }
+                                if(!is_array($ribrique) && $toutAff){
+                                    echo '
+                                    <div class="list-group col-md-11 mx-auto">
+                                        <div class="card-header h4 text-uppercase">
+                                           <span class="'.$ribLogo.'"></span> '.$ribrique.'
+                                        </div>';
+                                    echo '<div class="card-group"> ';
+                                    foreach($items as $item){
+                                        echo '
+                                            <div class="card">
+                                                <img src="../i_img/logos/bg5.jpeg" alt="" style="height: 60vh;" class="card-img">
+                                                <p class="p-0 m-0 text-muted small text-end">
+                                                    <i>Auteur: Daniel KIKIMBA</i>
+                                                </p>
+                                            </div>
+                                        ';
+                                    } 
+                                    echo '</div>';     
+                                echo '  <div class="d-flex justify-content-center my-2">
+                                            <button class="btn btn-dark px-3 me-1">Back</button>
+                                            <button class="btn btn-success px-3">Next</button>
+                                        </div>
+                                    </div>
+                                ';
+                                }
+                            }
+                            if($toutSms)    include('ribriques.php');
+                            ?>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -8,7 +8,6 @@ RewriteRule ^(.*) http://www.nanovers.com/$1 [QSA,L,R=301]
 # RewriteCond %{REQUEST_URI} !^/i_humours
 # RewriteRule ^(.*)$ /i_humours/
 RewriteRule ^i_humours/(.*)-([a-z]+) /i_humours/$1?sms=$2
-RewriteRule ^i_login/(.*)-([a-z]+) /i_login/$1?$2
 RewriteCond %{THE_REQUEST} ^(.+)\.php([#?][^\ ]*)?\ HTTP/
 RewriteCond %{HTTPS} !on
 RewriteRule ^(.+)\.php$ $1/ [R=301]

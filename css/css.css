@@ -39,8 +39,9 @@
 .imge{
     height: 300px!important;
 }
-
-
+a{
+    text-decoration: none;
+}
 @media screen and (max-width: 768px){
     .group-3{
         column-count: 1;
