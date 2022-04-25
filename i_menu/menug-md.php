@@ -1,4 +1,4 @@
-<div class="bg">
+<div class="bg" style="position: sticky;left: 0px;top: 20px; background-color: red;">
 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start ms-1" id="menu">
         <li class="nav-item text-center ">
             <a href="" class="nav-link border-top border-primary">

@@ -48,7 +48,7 @@
                             Nos experts techniques prendront egalement en charge tous les depannages informatiques ainsi que les installations de logiciles, vous assurant ainsi service apres vente efficace et reactif.
                         Ils pourront egalement vous accompagner dans votre developpement informatique et des contrats de maintenance.
                         </p>    
-                        <div class="col-lg-6 mx-auto shadow-lg px-2">
+                        <div class="col-lg-6 mx-auto shadow-lg px-2 my-4">
                             <h4 class="text-center">NOS ATOUTS:</h4>
                             <ul>
                                 <li>Une equipe pluridisciplinaire, dynamique et plurielle</li>

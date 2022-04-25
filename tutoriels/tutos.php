@@ -42,8 +42,8 @@
                 $play ="bi-play-btn-fill";
                 $play ="bi-file-earmark-pdf-fill";
                 echo '<div class="card col-6 col-md-3">
-                        <div class="card-img-overlay text-center d-flex pb-5" id="vid1">
-                            <button class="btn align-self-center mx-auto " >
+                        <div class="card-img-overlay d-flex align-items-center mb-5" id="vid1">
+                            <button class="btn mx-auto" >
                                 <span class="'.$play.' bi--4xl text-danger"></span>
                             </button>
                         </div>

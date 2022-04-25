@@ -11,7 +11,7 @@ RewriteRule ^i_humours/(.*)-([a-z]+) /i_humours/$1?sms=$2
 RewriteRule ^i_login/(.*)-([a-z]+) /i_login/$1?$2
 RewriteCond %{THE_REQUEST} ^(.+)\.php([#?][^\ ]*)?\ HTTP/
 RewriteCond %{HTTPS} !on
-RewriteRule ^(.+)\.php$ $1/ [R=301]
+RewriteRule ^(.+)\.php$ $1 [R=301]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f 
 RewriteRule ^(.*)/?$ $1.php

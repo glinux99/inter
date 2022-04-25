@@ -11,7 +11,7 @@
     <?php include('i_menu/menu_p.php');?>
     <div class="d-md-flex d-lg-flex">
         <div class="menu-g">
-            <div class="d-md-block  d-lg-block d-none">
+            <div class="d-md-block  d-lg-block d-none" style="position: sticky;top: 0px; background-color: red;">
                 <?php include('i_menu/menug-md.php');?>
             </div>
             <div id="body_div" class="d-md-none  d-lg-none d-block">
