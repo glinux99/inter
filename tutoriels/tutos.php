@@ -10,7 +10,7 @@
     <?php include($dir.'i_menu/menu_p.php');?>
     <div class="d-md-flex d-lg-flex">
         <div class="menu-g col-1">
-            <div class="d-md-block  d-lg-block d-none">
+            <div class="d-md-block  d-lg-block d-none position-sticky top-0">
                 <?php include($dir.'i_menu/menug-md.php');?>
             </div>
             <div id="body_div" class="d-md-none  d-lg-none d-block">
