@@ -1,7 +1,7 @@
 <div class="bg" style="position: sticky;left: 0px;top: 20px; background-color: red;">
 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start ms-1" id="menu">
         <li class="nav-item text-center ">
-            <a href="" class="nav-link border-top border-primary">
+            <a href="/actus" class="nav-link border-top border-primary">
                 <i class="bi--2xl bi-globe"></i> <span class="ms-0"><?php echo _("Actualite");?></span>
             </a>
         </li>
@@ -20,9 +20,9 @@
                 <i class="bi--2xl bi-person"></i> <span class="ms-0"><?php echo _("Incription");?></span>
             </a>
         </li>
-        <li class="nav-item text-center">
-            <a href="<?php echo $dir;?>i_pdf/librairie" class="nav-link h-50">
-                <i class="bi--2xl bi-file-earmark-pdf"></i> <span class="ms-0"><?php echo _("Livres");?></span>
+        <li class="nav-item d-flex mx-auto ">
+            <a href="<?php echo $dir;?>i_pdf/librairie" class="nav-link h-50 px-4">
+                <i class="bi--2xl bi-file-earmark-pdf d-block ps-2"></i> <span class="ms-0 d-block"><?php echo _("Livres");?></span>
             </a>
         </li>
         <li class="nav-item text-center">

@@ -8,7 +8,7 @@
 </head>
 <body style="background-image: url('<?php echo $dir;?>i_img/inter8');">
     <?php include($dir.'i_menu/menu_p.php');?>
-    <div class="vrai-body" >
+    <div class="vrai-body h-100" >
             <!-- Code ici -->
         <div class="col-md-10 mx-auto my-3">
             <div class="card-group">

@@ -6,7 +6,7 @@
   <div class="offcanvas-body mx-0 p-0 ">
     <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start" id="menu">
         <li class="nav-item text-center">
-            <a href="" class="nav-link">
+            <a href="/actus" class="nav-link">
                 <i class="bi--2xl bi-globe"></i> <span class="ms-0"><?php echo _("Actualite");?></span>
             </a>
         </li>

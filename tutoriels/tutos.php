@@ -21,7 +21,7 @@
                 <!-- Fin du boutton menu gauche flottant et son button -->
             </div>
         </div>
-        <div class="my-3">
+        <div class="my-3 h-100">
             <!-- Code ici -->
             <div class="row p-0 m-0 px-1 py-2">
                 <div class="col-md-6 border-start border-2 border-success ps-2">

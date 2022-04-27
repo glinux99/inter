@@ -21,7 +21,7 @@
                 <!-- Fin du boutton menu gauche flottant et son button -->
             </div>
         </div>
-        <div class="my-2 col-lg-11 col-md-11 ">
+        <div class="my-2 col-lg-11 col-md-11 h-100">
             <!-- Code ici -->
             <div class="border-start border-2 border-success ms-2 ps-2 ">
                 <h4 ><?php echo _("Librairie en ligne");?></h4>

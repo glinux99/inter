@@ -21,7 +21,7 @@
                 <!-- Fin du boutton menu gauche flottant et son button -->
             </div>
         </div>
-        <div class="bg-white d-block w-100">
+        <div class="bg-white d-block w-100 h-100">
             <!-- Code ici -->
             <div class="carousel in w-100" data-bs-ride="carousel">
             <?php $rire =[

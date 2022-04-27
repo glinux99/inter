@@ -160,7 +160,7 @@
                 <!-- Fin du boutton menu gauche flottant et son button -->
             </div>
         </div>
-        <div class="w-100">
+        <div class="w-100 h-100">
             <!-- Code ici -->
             <div class="entete">
                 <h4 class="text-center text-uppercase">Administrateur de site</h4>

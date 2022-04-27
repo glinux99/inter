@@ -21,7 +21,7 @@
                 <!-- Fin du boutton menu gauche flottant et son button -->
             </div>
         </div>
-        <div class="vrai-body parallax-window w-100 pt-4" data-parallax="scroll" data-image-src="<?php echo $dir;?>i_img/inter8">
+        <div class="vrai-body parallax-window w-100 pt-4 h-100" data-parallax="scroll" data-image-src="<?php echo $dir;?>i_img/inter8">
             <!-- Code ici -->
             <div class="card-title text-center h1 text-white title-pic">
                 <span class="soulign">NOS SERVICES</span>
@@ -92,8 +92,8 @@
                          ecoute... Nous choisir, c'est la rapidite et l'efficacite, et suivre les normes..."
                     ));
                     foreach($x as $items){
-                        echo '<div class="card my-2 col-md-5  mx-1" style="text-align: justify;">';
-                        echo '<div class="card-title">'.$items['titre'].'</div>';
+                        echo '<div class="card my-1 col-md-5  mx-1" style="text-align: justify;">';
+                        echo '<div class="card-title h4 mt-3 text-center">'.$items['titre'].'</div>';
                         echo '<div class="card-body">'.$items['body'].'</div></div>';
                     }
                     $logos =['angular.png','apache.png','cybersecu.jpg','cyberstats.jpg','drupal.jpg',
