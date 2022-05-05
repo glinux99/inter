@@ -14,11 +14,20 @@
 <body>
    <div class="container">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, aliquam.
-        <div id="summernote">Hello Summernote</div>
+        <form action="/ess2" method="post">
+            <label for="">Titre:</label>
+            <input type="text" name="titre" id="" class="form-control">
+            <textarea name="description" id="summernote" ></textarea>
+            <button type="submit" class="btn btn-success">Envoyer</button>
+        </form>
    </div>
    <script>
        $(document).ready(function() {
-  $('#summernote').summernote();
+  $('#summernote').summernote({
+      placeholder: "Description",
+      height: 200,
+      tabsize: 10,
+  });
 });
    </script>
 </body>
