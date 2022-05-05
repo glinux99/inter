@@ -34,7 +34,7 @@
                         </button>
                     </div>
                 </div>           
-                <div class="message col-9">
+                <div class="message col-9 display-6 fw-bolder">
                     Une bombe a explose dans un quartier de la ville mais n'a pas fait beaucoup de degat
                 </div>
             </div>

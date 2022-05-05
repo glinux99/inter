@@ -24,7 +24,7 @@
         <div class="vrai-body w-100 pt-4 h-100">
             <!-- Code ici -->
             <div class="card-title text-center h1 text-white title-pic">
-                <span class="soulign">NOS SERVICES</span>
+                <span class="soulign fw-bold">NOS SERVICES</span>
             </div>
             <div class="my-2 position-relative mx-auto">
                 <div class="row  d-md-flex d-lg-flex justify-content-center w-100 m-0">

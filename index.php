@@ -40,7 +40,7 @@
             </div>
             <div class="group-3">
                 <?php while($x<6){?>
-                    <div class="card mx-1 text-white arrounded">
+                    <div class="card mx-1 text-white arrounded mb-1">
                         <img src="i_img/inter7.jpg" alt="image" class="card-img-top" height="350">
                         <div class="card-img-overlay m-0 p-0">
                             <div class="card-title bg-dark p-2 h-25 overflow-hidden">
