@@ -2,6 +2,14 @@
     background: #0f222b!important;
     color: #666;
 }
+.vrai-body{
+/* background-color: red; */
+background: url('../i_img/inter8');
+background-position: center center;
+background-repeat: no-repeat; 
+background-attachment: fixed; 
+background-size: cover;
+}
 .group-3{
     column-count: 3;
     column-gap: 0.5px;

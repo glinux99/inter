@@ -22,7 +22,7 @@
                 <!-- Fin du boutton menu gauche flottant et son button -->
             </div>
         </div>
-        <div class="vrai-body parallax-window w-100 pt-4 h-100" data-parallax="scroll" data-image-src="<?php echo $dir;?>i_img/inter8">
+        <div class="vrai-body">
             <!-- Code ici -->
             <div class="card-title text-center h1 text-white title-pic">
                 <span class="soulign">A PROPOS</span>

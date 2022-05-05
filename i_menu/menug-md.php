@@ -47,7 +47,7 @@
 <script>
     function dimi(){
         $('.boxSpan').toggleClass('bi-box-arrow-right bi-box-arrow-left');
-        $('.elmnt').toggleClass('bg-primary bg');
+        // $('.elmnt').toggleClass('bg-primary bg');
         $('#dimi').stop().animate({width: "toggle", overflow: 'hidden'}, "slow");
         // $('#dimi').css('overflow', 'hidden');
 

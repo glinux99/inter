@@ -9,7 +9,7 @@
 <body>
     <?php include($dir.'i_menu/menu_p.php');?>
     <div class="d-md-flex d-lg-flex">
-        <div class="menu-g col-1">
+        <div class="menu-g">
             <div class="d-md-block  d-lg-block d-none position-sticky top-0">
                 <?php include($dir.'i_menu/menug-md.php');?>
             </div>
@@ -21,7 +21,7 @@
                 <!-- Fin du boutton menu gauche flottant et son button -->
             </div>
         </div>
-        <div class="my-2 col-lg-11 col-md-11 h-100">
+        <div class="my-2 w-100 h-100">
             <!-- Code ici -->
             <div class="border-start border-2 border-success ms-2 ps-2 ">
                 <h4 ><?php echo _("Librairie en ligne");?></h4>
