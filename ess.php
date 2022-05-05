@@ -12,6 +12,38 @@
     <title>Document</title>
 </head>
 <body>
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>
+                    Name:
+                </th>
+                <th>
+                    Post-Name:
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>
+                    Daniel
+                </th>
+                <th>Kikimba</th>
+            </tr>
+            <tr>
+                <th>
+                    Daniel
+                </th>
+                <th>Kikimba</th>
+            </tr>
+            <tr>
+                <th>
+                    Daniel
+                </th>
+                <th>Kikimba</th>
+            </tr>
+        </tbody>
+    </table>    
    <div class="container">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, aliquam.
         <form action="/ess2" method="post">
