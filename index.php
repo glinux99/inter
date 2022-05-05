@@ -22,7 +22,7 @@
                 <!-- Fin du boutton menu gauche flottant et son button -->
             </div>
         </div>
-        <div class="vrai-body h-100">
+        <div class="vrai-body2 h-100">
             <div class=" row mx-0 position-relative">
                 <div class="col-3 p-0">
                     <div class="title bg-danger px-2 d-flex align-items-center " style="clip-path: polygon(0 0, 100% 0%, 70% 100%, 0% 100%); border: 1px solid green; height: 7vh;">

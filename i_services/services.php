@@ -93,8 +93,8 @@
                     ));
                     foreach($x as $items){
                         echo '<div class="card my-1 col-md-5  mx-1" style="text-align: justify;">';
-                        echo '<div class="card-title h4 mt-3 text-center">'.$items['titre'].'</div>';
-                        echo '<div class="card-body">'.$items['body'].'</div></div>';
+                        echo '<div class="card-title h4 mt-3 text-center fw-bold text-primary">'.$items['titre'].'</div>';
+                        echo '<div class="card-body text-muted">'.$items['body'].'</div></div>';
                     }
                     $logos =['angular.png','apache.png','cybersecu.jpg','cyberstats.jpg','drupal.jpg',
                     'flutter.png','htm-css-js.webp','ia.webp','iosandroid.png','java.png','jmolaa.png',
