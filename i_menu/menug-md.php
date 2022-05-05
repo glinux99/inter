@@ -1,5 +1,6 @@
-<div class="bg" style="position: sticky;left: 0px;top: 20px; background-color: red;">
-<ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start ms-1" id="menu">
+<div class=" d-flex " style="">
+    <div id="dimi" class="bg">
+    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start ms-1" id="menu">
         <li class="nav-item text-center ">
             <a href="/actus" class="nav-link border-top border-primary">
                 <i class="bi--2xl bi-globe"></i> <span class="ms-0"><?php echo _("Actualite");?></span>
@@ -36,4 +37,20 @@
             </a>
         </li>  
     </ul>
+    </div>
+    <div class="bg-primary  rounded-end click d-flex border-success border elmnt" style="height: 40vh" onclick="dimi();">
+        <span class="bi-box-arrow-left bi--xl align-self-center m-2 boxSpan">
+
+        </span>
+    </div>
 </div>
+<script>
+    function dimi(){
+        $('.boxSpan').toggleClass('bi-box-arrow-right bi-box-arrow-left');
+        $('.elmnt').toggleClass('bg-primary bg');
+        $('#dimi').stop().animate({width: "toggle", overflow: 'hidden'}, "slow");
+        // $('#dimi').css('overflow', 'hidden');
+
+       
+    }
+</script>
