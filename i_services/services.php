@@ -91,10 +91,24 @@
                          d'appeler chaque jours votre maintenancier car nous serons toujours a votre 
                          ecoute... Nous choisir, c'est la rapidite et l'efficacite, et suivre les normes..."
                     ));
+                    $text_color = ['-primary','-danger','-success','-warning'];
+                    $text_color2 =['--bs-blue','--bs-red','--bs-green','--bs-yellow'];
+                    $i=0;
                     foreach($x as $items){
-                        echo '<div class="card my-1 col-md-5  mx-1" style="text-align: justify;">';
-                        echo '<div class="card-title h4 mt-3 text-center fw-bold text-primary">'.$items['titre'].'</div>';
+                        if($i%2==0) $rand =rand(0,3);
+                        if($i==0) {
+                            $rand=0;
+                            $rand2=$rand;
+                        }
+                        echo '<style>
+                                .soulign{
+                                    color: var('.$text_color2[$rand2].');
+                                }
+                        </style>';
+                        echo '<div class="bg-white rounded my-1 col-md-5  mx-1 border-start border-4 border'.$text_color[$rand].'" style="text-align: justify;">';
+                        echo '<div class="card-title h4 mt-3 text-center fw-bold text'.$text_color[$rand].'">'.$items['titre'].'</div>';
                         echo '<div class="card-body text-muted">'.$items['body'].'</div></div>';
+                        $i++;
                     }
                     $logos =['angular.png','apache.png','cybersecu.jpg','cyberstats.jpg','drupal.jpg',
                     'flutter.png','htm-css-js.webp','ia.webp','iosandroid.png','java.png','jmolaa.png',

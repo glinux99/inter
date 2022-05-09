@@ -9,6 +9,7 @@ background-position: center center;
 background-repeat: no-repeat; 
 background-attachment: fixed; 
 background-size: cover;
+font-size: ;
 }
 .group-3{
     column-count: 3;
@@ -40,6 +41,17 @@ background-size: cover;
 }
 .interlab{
     color: green;
+}
+.rounded-customer{
+    border-radius: 1ex!important;
+    border-left: 5px solid #0d6efd!important;
+}
+.aproposCard:hover{
+    transform: scale(1.008);
+    position: relative;
+  
+    border-top: 3px solid #0d6efd;
+    z-index: 1000;
 }
 .soulign{
     border-bottom: 2px solid green;
