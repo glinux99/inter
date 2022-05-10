@@ -55,12 +55,12 @@
    </div>
    <script>
        $(document).ready(function() {
-  $('#summernote').summernote({
-      placeholder: "Description",
-      height: 200,
-      tabsize: 10,
-  });
-});
+            $('#summernote').summernote({
+                placeholder: "Description",
+                height: 200,
+                tabsize: 10,
+                    });
+            });
    </script>
 </body>
 </html>
