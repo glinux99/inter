@@ -114,7 +114,7 @@
                     'flutter.png','htm-css-js.webp','ia.webp','iosandroid.png','java.png','jmolaa.png',
                     'jquery.jpg','linuxattack.webp','magento.png','mysql.png','oracle.png',
                     'php.png','python.png','sociaux.jpg','wordpress.png','repar.jpg','vsoce.png','adobe.png','office.png'];
-                    echo '<div class="bg-white col-md-10 py-3">';
+                    echo '<div class="bg-white col-md-10 py-3 rounded">';
                         foreach($logos as $logo){
                             echo '<img src="'.$dir.'i_img/logos/'.$logo.'" alt="" class="d-lg-none d-md-none mx-1" height="110" width="100"> ';
                             echo '<img src="../i_img/logos/'.$logo.'" alt="" class="d-lg-inline  d-md-inline d-none" height="100" width="120"> ';

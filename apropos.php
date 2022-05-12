@@ -36,21 +36,38 @@
                 <div >
                     <div class="card mt-2  h-100" style="text-align: justify;">
                         <div class="card-group p-0 m-2 ">
-                            <div class="card p-2 shadow text-muted aproposCard">
-                            Pour ce qui concernent Nanovers, elle est une societe mis au point par des informaticiens freelance
-                            pour aider d'autres utilisateurs sur des problemes qui sont informatiques et electroniques. Ce site web est caractere academique (Nous recrutons, nous formons, nous ameliorons a partir d'une base qui est NanoVers. Ce qui est sur
-                            est que nous aidons les jeunes informaticiens a aquerir de l'experiance en fournissant les elements et outils pour
-                            les permettre de se developper.
+                            <div class="card p-2 shadow  aproposCard">
+                                <h3 class="text-center  mx-auto aph3">
+                                     <span>Qui sommes-nous</span>
+                                     <span class="soulign2 mt-1"></span></h3>
+                                <p class="text-muted">
+                                Pour ce qui concernent Nanovers, elle est une societe mis au point par des informaticiens freelance
+                                pour aider d'autres utilisateurs sur des problemes qui sont informatiques et electroniques. Ce site web est caractere academique (Nous recrutons, nous formons, nous ameliorons a partir d'une base qui est NanoVers. Ce qui est sur
+                                est que nous aidons les jeunes informaticiens a aquerir de l'experiance en fournissant les elements et outils pour
+                                les permettre de se developper.
+                                </p>
                             </div>
-                            <div class="card p-2 shadow h-75 my-auto text-muted aproposCard">
-                            Nous sommes une entreprise de services informatiques dedies aux entreprises et aux particuliers.
-                            Nous agissons dans les domaines de la fourniture, l'installation, de la maintenance, de la securisation et de la conception de votre systeme informatique. Nous pouvons vous offrir ainsi un suivi de votre parc reseaux afin d'optimiser votre strategie d'entreprise ou vous aider a avancer en etant un particulier.
+                            <div class="card p-2 shadow h-75 my-auto  aproposCard">
+                                <h3 class="text-center mx-auto aph3">
+                                    <span>Entreprise</span>
+                                    <span class="soulign2 mt-1"></span>
+                                </h3>
+                                <p class="text-muted">
+                                Nous sommes une entreprise de services informatiques dedies aux entreprises et aux particuliers.
+                                Nous agissons dans les domaines de la fourniture, l'installation, de la maintenance, de la securisation et de la conception de votre systeme informatique. Nous pouvons vous offrir ainsi un suivi de votre parc reseaux afin d'optimiser votre strategie d'entreprise ou vous aider a avancer en etant un particulier.
+                                </p>
                             </div>
-                            <div class="card p-2 shadow  text-muted aproposCard">
-                            Notre equipe commerciale pourra aussi vous conseiller dans l'achat des equipement adequats avec votre domaine de travail ou de recherche qui sont fiables et performants.
+                            <div class="card p-2 shadow  aproposCard">
+                                <h3 class="text-center  mx-auto aph3">
+                                    <span>Equipe</span>
+                                    <span class="soulign2 mt-1"></span>
+                                </h3>
+                                <p class="text-muted">
+                                Notre equipe commerciale pourra aussi vous conseiller dans l'achat des equipement adequats avec votre domaine de travail ou de recherche qui sont fiables et performants.
                         
                                 Nos experts techniques prendront egalement en charge tous les depannages informatiques ainsi que les installations de logiciles, vous assurant ainsi service apres vente efficace et reactif.
-                            Ils pourront egalement vous accompagner dans votre developpement informatique et des contrats de maintenance.
+                                Ils pourront egalement vous accompagner dans votre developpement informatique et des contrats de maintenance.
+                                </p>
                             </div>
                         </div>    
                         <div class="col-lg-6 mx-auto shadow-lg px-2 my-4 rounded border-primary border rounded-customer">

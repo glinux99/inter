@@ -53,15 +53,7 @@
             <button type="submit" class="btn btn-success">Envoyer</button>
         </form>
    </div>
-   <script>
-       $(document).ready(function() {
-            $('#summernote').summernote({
-                placeholder: "Description",
-                height: 200,
-                tabsize: 10,
-                    });
-            });
-   </script>
+   
 </body>
 </html>
 
