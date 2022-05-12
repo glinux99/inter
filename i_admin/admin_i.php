@@ -433,7 +433,7 @@
                      <div class="container">
                          <div class="p-2">
                             <label for="">Titre</label>
-                            <input type="text" class="form-control" placeholder="Titre de l'article que vous voulez publier">
+                            <input type="text" class="form-control" placeholder="Inserer le titre de l'article que vous voulez publier ">
                          </div>
                          <div class="p-2">
                             <textarea name="description" id="summernote" ></textarea>
