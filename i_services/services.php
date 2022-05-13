@@ -31,7 +31,7 @@
 
                     <?php  
                     $x=array(array(
-                        'titre'=>"Développement des logiciels informatique",
+                        'titre'=>"Développement des logiciels informatiques",
                         'body'=>"Nous savons que les logiciels disponibles sur le marché ne conviennent pas à tout le monde. 
                         Pour cela, nous offrons des solutions personnalisées. Nous construisons des logiciels qui 
                         répondent à vos besoins et reflètent votre idée professionnelle. Que ce soit pour un logiciel 
@@ -68,12 +68,12 @@
                         'body'=>"La sécurité informatique consiste à protéger un système informatique contre toute violation, intrusion, dégradation ou vol de données au sein du système d’information.
                         Avec l’essor d’internet, et l’utilisation par la majorité des entreprises et des organisation de processus informatisés, les menaces visant les systèmes d’informations n’ont cessés d’augmenter et de se sophistiquer, faisant aujourd’hui de la sécurité informatique une nécessité pour tous les types de structure"
                     ), array(
-                        'titre'=>"Création des designs",
+                        'titre'=>"Création de designs",
                         'body'=>"Voulez-vous un design performant pour vos photos, vos annonces, vos invitations? Nous vous
                         offrons une possibilité d'avoir acces aux meilleurs designers( design d'espace, design de produits, design graphique, etc) que vous
                         pouvez avoir... Faites-vous aider, nous sommes la."
                     ), array(
-                        'titre'=>"Développement et Optimisation de base de données",
+                        'titre'=>"Développement et Optimisation de bases de données",
                         'body'=>"La base de donnee est une plateforme necessaire au bon fonctionnement de la plupart des applications digitales, des sites web, etc... 
                          Notre equipe ne pourra que se reposer que si il sait que vous avez ete satisfait et n'ont pas parce que le travail a ete fini. Pour nous ce qui est important est votre satisfaction en vous garentissant un meilleur service.
                         Ce que nous faisons pour que votre base de donnees soit impecables"

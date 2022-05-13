@@ -69,13 +69,34 @@ background-size: cover;
 }
 .aproposCard{
     border-top: 5px solid #0d6efd;
+    /* transition: transform 10s ease-out; */
+}
+.triangl{
+    min-width:98%;
+    height: 200%;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.3;
+    background-color: #0d6efd;
+    clip-path: polygon(100% 50%, 100% 50%, 100% 100%, 0% 100%);
+    z-index: 1;
+}
+.trianglReverse{
+    min-width:98%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.3;
+    background-color: #0d6efd;
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+    z-index: 1;
 }
 .aproposCard:hover{
     transform: scale(1.008);
     position: relative;
     /* border-bottom: 5px solid #0d6efd; */
     box-shadow: 2px 2px 5px #0d6efd!important;
-    z-index: 1000;
+    z-index: 10;
 }
 .soulign{
     border-bottom: 2px solid green;
@@ -112,4 +133,16 @@ a{
     .group-2{
         column-count: 1;
     }
+    .trianglMobile{
+        background-color: #0d6efd;
+        min-width:98%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        opacity: 0.3;
+        background-color: #0d6efd;
+        clip-path:polygon(0% 100%, 50% 90%, 100% 100%);\
+        z-index: 1;
+    }
+
 }
